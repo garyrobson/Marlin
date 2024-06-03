@@ -21,6 +21,12 @@
  */
 #pragma once
 
+/**
+ * Ignore warnings for my specific configuration
+*/
+#define NO_CREALITY_422_DRIVER_WARNING
+#define NO_AUTO_ASSIGN_WARNING
+
 #define CONFIG_EXAMPLES_DIR "Creality/Ender-3 V2/CrealityV422/MarlinUI"
 
 /**
